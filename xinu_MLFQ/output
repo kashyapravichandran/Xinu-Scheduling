@@ -1,0 +1,26 @@
+78c78
+< 	kprintf("I am here");
+---
+> 
+80c80
+< 	kprintf(" I am here");
+---
+> 
+215,221c215
+< 
+< 	prptr->turnaroundtime=ctr1000;;
+< 	prptr->num_ctxsw=0;
+< 	prptr->runtime=0;
+< 	prptr->runtime_start=ctr1000;
+< 
+< 	prptr->flag_user=0;
+---
+> 	
+236c230
+< 	//kprintf(" I am here");
+---
+> 
+238c232
+< 	readylist_user = newqueue();
+---
+> 
